@@ -49,6 +49,10 @@ a {
     font-size: 18px;
 }
 
+.first .text {
+    text-align: justify;
+}
+
 .image img {
     max-width: 500px;
 }
@@ -58,6 +62,8 @@ a {
     flex-direction: column;
     justify-content: center;
     gap: 8px;
+    width: 600px;
+    flex-shrink: 0;
 }
 
 .welcome {
@@ -89,7 +95,7 @@ a {
 .top-images {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 .info {
