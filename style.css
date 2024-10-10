@@ -2,17 +2,29 @@ body {
     display: flex;
     flex-direction: column;
     text-wrap: wrap;
+    font-family: "Roboto";
+    margin: 0px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    background-color: #1f2937;
+    margin: 0;
+}
+
+.left-links {
+    font-weight: 900;
+    font-size: 24px;
+    margin-left: 100px;
 }
 
 .right-links {
     display: flex;
     gap: 10px;
+    margin-right: 100px;
+    font-size: 18px;
 }
 
 ul {
@@ -23,28 +35,55 @@ ul {
 
 a {
     text-decoration: none;
+    color: #f9faf8;
 }
 
 .first {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
-    padding: 20px;
+    padding: 100px 120px;
+    padding-top: 70px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
 }
 
 .image img {
-    max-width: 450px;
+    max-width: 500px;
 }
 
 .content {
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.welcome {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 8px;
+    width: 90px;
+    color: #f9faf8;
+    border-radius: 8px;
 }
 
 .second {
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    gap: 20px;
+    padding: 40px;
+    gap: 40px;
+}
+.top-sales {
+    margin: auto;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .top-images {
@@ -59,30 +98,69 @@ a {
 
 .info .text {
     text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 45px;
 }
 
 .top-images img {
     width: 175px;
     height: 175px;
+    border-radius: 8px;
+    border: 2px solid #3882f6;
 }
 
 .third {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 150px 250px;
+}
+
+.third .author {
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: auto;
 }
 
 .fourth {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 75px;
 }
 
 .modal {
     display: flex;
     gap: 35px;
+    background-color: #3882f6;
+    width: 900px;
+    height: 150px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+}
+
+.call {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.right .sign-up {
+    border-color: #ffffff;
 }
 
 .footer {
-    margin: auto;
+    display: flex;
+    padding: 20px;
+    background-color: #1f2937;
+    text-align: center;
+    justify-content: center;
+    color: #e5e7eb;
 }
